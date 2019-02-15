@@ -1,0 +1,48 @@
+#mainCanvas{
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    top: 10%;
+    left: 25%;
+    border-radius: 10px;
+    background: linear-gradient(-10deg, #00FF66  , #33FF99,#00FFFF );
+}
+
+#emojs{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    width: 50px;
+    height: 50px;
+}
+#passInput{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 400px;
+}
+#usernameInput{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    width: 400px;
+}
+form .icon{
+    background-color: #CCCC66;
+}
+
+form .btn{
+    width: 100px;
+    border-radius: 20px;
+    border: 0px;
+    background: linear-gradient(30deg, #FF33FF , #FF00CC,  #FF0066 );
+    opacity: 0.8;
+}
+form .btn:active{
+    background-color: brown;
+}
+form .btn-group{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+}
